@@ -98,16 +98,6 @@ a.middle:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
-  .float{
-	position:fixed;
-	width:50px;
-	height:50px;
-	bottom:10px;
-	right:10px;
-	background-color:#FFF;
-	border-radius:50px;
-	text-align:center;
-}
 
 .overlay {
   position: fixed;
@@ -161,4 +151,14 @@ a.middle:hover:before {
   .popup{
     width: 70%;
   }
+}
+  .float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:10px;
+	right:10px;
+	background-color:#FFF;
+	border-radius:50px;
+	text-align:center;
 }
