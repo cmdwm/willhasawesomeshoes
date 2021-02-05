@@ -109,17 +109,6 @@ a.middle:hover:before {
 	text-align:center;
 }
 
-.box {
-  width: 40%;
-  margin: 0 auto;
-  background: rgba(255,255,255,0.2);
-  padding: 35px;
-  border: 2px solid #fff;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
-  text-align: center;
-}
-
 .overlay {
   position: fixed;
   top: 0;
@@ -130,6 +119,7 @@ a.middle:hover:before {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  z-index:1000;
 }
 .overlay:target {
   visibility: visible;
@@ -140,6 +130,7 @@ a.middle:hover:before {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
+  color: black;
   border-radius: 5px;
   width: 30%;
   position: relative;
