@@ -137,7 +137,7 @@ a.middle:hover:before {
   color: #333;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: #ff0000;
 }
 .popup .content {
   max-height: 30%;
